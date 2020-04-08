@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-gitlab-registry",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "Set of semantic-release plugins to publish to gitlab docker registry",
   "main": "index.js",
   "scripts": {

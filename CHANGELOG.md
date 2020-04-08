@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/lgaticaq/semantic-release-gitlab-registry/compare/v2.2.1...v2.3.0) (2020-04-08)
+
+
+### Features
+
+* **gitlab-registry:** added minor major and channel tags ([#2](https://github.com/lgaticaq/semantic-release-gitlab-registry/issues/2)) ([5275e2a](https://github.com/lgaticaq/semantic-release-gitlab-registry/commit/5275e2a))
+
 ## [2.2.1](https://github.com/lgaticaq/semantic-release-gitlab-registry/compare/v2.2.0...v2.2.1) (2019-01-30)
 
 
