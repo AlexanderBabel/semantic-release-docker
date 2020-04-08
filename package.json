@@ -31,7 +31,8 @@
   "homepage": "https://github.com/lgaticaq/semantic-release-gitlab-registry#readme",
   "dependencies": {
     "@semantic-release/error": "^2.2.0",
-    "execa": "^1.0.0"
+    "execa": "^1.0.0",
+    "semver": "^7.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "7.4.0",
