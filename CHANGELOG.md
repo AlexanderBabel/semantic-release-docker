@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/lgaticaq/semantic-release-gitlab-registry/compare/v2.3.0...v2.3.1) (2020-04-15)
+
+
+### Bug Fixes
+
+* **publish:** fixlog errors ([d76f6a5](https://github.com/lgaticaq/semantic-release-gitlab-registry/commit/d76f6a5))
+
 # [2.3.0](https://github.com/lgaticaq/semantic-release-gitlab-registry/compare/v2.2.1...v2.3.0) (2020-04-08)
 
 
