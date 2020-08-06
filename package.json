@@ -1,6 +1,6 @@
 {
-  "name": "semantic-release-gitlab-registry",
-  "version": "2.3.2",
+  "name": "@alexbabel/semantic-release-docker",
+  "version": "2.4.0",
   "description": "Set of semantic-release plugins to publish to gitlab docker registry",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lgaticaq/semantic-release-gitlab-registry.git"
+    "url": "https://github.com/alexanderbabel/semantic-release-docker.git"
   },
   "keywords": [
     "docker",
@@ -23,12 +23,12 @@
     "semantic-release",
     "version"
   ],
-  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "author": "Alexander Babel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lgaticaq/semantic-release-gitlab-registry/issues"
+    "url": "https://github.com/alexanderbabel/semantic-release-docker/issues"
   },
-  "homepage": "https://github.com/lgaticaq/semantic-release-gitlab-registry#readme",
+  "homepage": "https://github.com/alexanderbabel/semantic-release-docker#readme",
   "dependencies": {
     "@semantic-release/error": "^2.2.0",
     "execa": "^1.0.0",
