@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.4...v2.5.0) (2020-08-06)
+
+
+### Features
+
+* add default image value ([703402a](https://github.com/alexanderbabel/semantic-release-docker/commit/703402a1a85cd8ff648d46658657716e7921339d))
+
 ## [2.4.4](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.3...v2.4.4) (2020-08-06)
 
 
