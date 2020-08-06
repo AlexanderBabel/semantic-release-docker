@@ -31,7 +31,7 @@ jobs:
         run: yarn
 
       - name: eslint check
-        run: yarn eslint
+        run: yarn eslint .
 
       - name: Release
         run: yarn semantic-release
