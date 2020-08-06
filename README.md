@@ -1,8 +1,7 @@
-# semantic-release-gitlab-registry
+# @alexbabel/semantic-release-docker
 
-[![npm version](https://img.shields.io/npm/v/semantic-release-gitlab-registry.svg)](https://www.npmjs.com/package/semantic-release-gitlab-registry)
-[![npm downloads](https://img.shields.io/npm/dm/semantic-release-gitlab-registry.svg)](https://www.npmjs.com/package/semantic-release-gitlab-registry)
-[![Build Status](https://travis-ci.org/lgaticaq/semantic-release-gitlab-registry.svg?branch=master)](https://travis-ci.org/lgaticaq/semantic-release-gitlab-registry)
+[![npm version](https://img.shields.io/npm/v/@alexbabel/semantic-release-docker.svg)](https://www.npmjs.com/package/@alexbabel/semantic-release-docker)
+[![npm downloads](https://img.shields.io/npm/dm/@alexbabel/semantic-release-docker.svg)](https://www.npmjs.com/package/@alexbabel/semantic-release-docker)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 Set of [semantic-release](https://github.com/semantic-release/semantic-release) plugins for publishing a docker image to [GitLab Container Registry](https://docs.gitlab.com/ce/user/project/container_registry.html).
@@ -10,9 +9,9 @@ Set of [semantic-release](https://github.com/semantic-release/semantic-release) 
 ```json
 {
   "release": {
-    "verifyConditions": "semantic-release-gitlab-registry",
+    "verifyConditions": "@alexbabel/semantic-release-docker",
     "publish": {
-      "path": "semantic-release-gitlab-registry",
+      "path": "@alexbabel/semantic-release-docker",
       "name": "username/imagename"
     }
   }
