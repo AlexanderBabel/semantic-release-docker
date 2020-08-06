@@ -1,3 +1,11 @@
+## [2.4.1](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.0...v2.4.1) (2020-08-06)
+
+
+### Bug Fixes
+
+* **ci:** bump ([cc8cdec](https://github.com/alexanderbabel/semantic-release-docker/commit/cc8cdecb06a24628470ecde4c355ca6ca8dabd37))
+* **ci:** update dep ([9582da5](https://github.com/alexanderbabel/semantic-release-docker/commit/9582da5e9fdfc57b34c563c99b75c7e1ef98d346))
+
 ## [2.3.2](https://github.com/lgaticaq/semantic-release-gitlab-registry/compare/v2.3.1...v2.3.2) (2020-04-15)
 
 
