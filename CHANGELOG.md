@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.5.0...v2.5.1) (2020-08-06)
+
+
+### Bug Fixes
+
+* **dep:** update peer dependencies ([1cc4166](https://github.com/alexanderbabel/semantic-release-docker/commit/1cc41665df49b1ac047c6a23a7e75722422e0bed))
+
 # [2.5.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.4...v2.5.0) (2020-08-06)
 
 
