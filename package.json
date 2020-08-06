@@ -58,7 +58,7 @@
     "semantic-release": "17.1.1"
   },
   "peerDependencies": {
-    "semantic-release": "^15.9.0"
+    "semantic-release": "^17.1.1"
   },
   "eslintConfig": {
     "extends": [
