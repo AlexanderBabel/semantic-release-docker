@@ -1,3 +1,10 @@
+## [2.4.4](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.3...v2.4.4) (2020-08-06)
+
+
+### Bug Fixes
+
+* **publish:** push exact prerelease version ([28a74ff](https://github.com/alexanderbabel/semantic-release-docker/commit/28a74fff59982f02b96959c6dba81dddca32e93a))
+
 ## [2.4.3](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.2...v2.4.3) (2020-08-06)
 
 
