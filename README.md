@@ -10,10 +10,14 @@ Set of [semantic-release](https://github.com/semantic-release/semantic-release) 
 {
   "release": {
     "verifyConditions": "@alexbabel/semantic-release-docker",
-    "publish": {
+    "prepare": {
       "path": "@alexbabel/semantic-release-docker",
-      "name": "username/imagename"
-    }
+      "buildArgs": [
+        "--build-arg",
+        "VARIABLE"
+      ]
+    },
+    "publish": "@alexbabel/semantic-release-docker"
   }
 }
 ```
@@ -23,6 +27,10 @@ Set of [semantic-release](https://github.com/semantic-release/semantic-release) 
 ### `verifyConditions`
 
 Verify that all needed configuration is present and login to the GitLab Container Registry.
+
+### `prepare`
+
+Build the docker image. You can pass additional build arguments if needed.
 
 ### `publish`
 
