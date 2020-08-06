@@ -1,3 +1,10 @@
+## [2.4.2](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.1...v2.4.2) (2020-08-06)
+
+
+### Bug Fixes
+
+* **ci:** add git env vars ([14ee56e](https://github.com/alexanderbabel/semantic-release-docker/commit/14ee56e9a262e5c117e11fb80c932a64b9e06f20))
+
 ## [2.4.1](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.0...v2.4.1) (2020-08-06)
 
 
