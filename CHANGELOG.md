@@ -1,3 +1,10 @@
+## [2.4.3](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.2...v2.4.3) (2020-08-06)
+
+
+### Bug Fixes
+
+* **publish:** update push cmd ([e204735](https://github.com/alexanderbabel/semantic-release-docker/commit/e204735ecac6c68cf316bec3ab33b34cbfed98f1))
+
 ## [2.4.2](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.4.1...v2.4.2) (2020-08-06)
 
 
