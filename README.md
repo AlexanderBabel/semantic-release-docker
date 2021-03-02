@@ -25,12 +25,13 @@ Set of [semantic-release](https://github.com/semantic-release/semantic-release) 
 ## Configuration
 
 Environment variables:
-| Variable               | Description                                           | Default                             |
-| ---                    | ---                                                   | ---                                 |
-| `CI_REGISTRY`          | The registry to push to                               | `containers.pkg.github.com`         |
-| `CI_REGISTRY_IMAGE`    | The name of the image including the registry domain   | `$CI_REGISTRY/$GITHUB_REPOSITORY`   |
-| `CI_REGISTRY_USER`     | The user to use to authenticate against the registry  | `AlexanderBabel`                    |
-| `CI_REGISTRY_PASSWORD` | The password for the specified user                   |                                     |
+| Variable                   | Description                                               | Default                             |
+| ---                        | ---                                                       | ---                                 |
+| `CI_REGISTRY`              | The registry to push to                                   | `containers.pkg.github.com`         |
+| `CI_REGISTRY_IMAGE`        | The name of the image including the registry domain       | `$CI_REGISTRY/$GITHUB_REPOSITORY`   |
+| `CI_REGISTRY_USER`         | The user to use to authenticate against the registry      | `AlexanderBabel`                    |
+| `CI_REGISTRY_PASSWORD`     | The password for the specified user                       |                                     |
+| `CI_USE_KANIKO_AND_CRANE`  | GitLab CI: Use kaniko (build) and crane (tagging/push)    | `false`                             |
 
 ## Plugins
 
