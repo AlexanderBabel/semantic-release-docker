@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.5.1...v2.6.0) (2021-03-02)
+
+
+### Features
+
+* add support for crane and kaniko ([a6b83b1](https://github.com/alexanderbabel/semantic-release-docker/commit/a6b83b1dd3089fc169e0708a0355ff9a8bf6ec8b))
+
 ## [2.5.1](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.5.0...v2.5.1) (2020-08-06)
 
 
