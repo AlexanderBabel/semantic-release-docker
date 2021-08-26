@@ -1,3 +1,16 @@
+# [2.8.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.7.0...v2.8.0) (2021-08-26)
+
+
+### Bug Fixes
+
+* add image name to tag ([26b1da7](https://github.com/alexanderbabel/semantic-release-docker/commit/26b1da70887e1be9554b816010def9c54d981153))
+* run eslint ([f595ed0](https://github.com/alexanderbabel/semantic-release-docker/commit/f595ed08164d3a0b7132802159a31113253089cf))
+
+
+### Features
+
+* add support for buildx ([43adf5d](https://github.com/alexanderbabel/semantic-release-docker/commit/43adf5d2c7111f7dda6c9bf7b0ee962bbb9a215d))
+
 # [2.7.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.6.0...v2.7.0) (2021-08-26)
 
 
