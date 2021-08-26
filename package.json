@@ -104,6 +104,7 @@
     ]
   },
   "release": {
+    "branches": ["main"],
     "extends": "npm-github-config"
   },
   "renovate": {
