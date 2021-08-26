@@ -26,6 +26,28 @@ Set of [semantic-release](https://github.com/semantic-release/semantic-release) 
 }
 ```
 
+## How to build for multiple platforms
+
+```json
+{
+  "release": {
+    "verifyConditions": "@alexbabel/semantic-release-docker",
+    "prepare": {
+      "path": "@alexbabel/semantic-release-docker",
+      "buildArgs": [
+        "--platform",
+        "linux/amd64,linux/arm/v7,linux/arm64",
+        "--push"
+      ]
+    },
+    "publish": {
+      "path": "@alexbabel/semantic-release-docker",
+      "skipPublish": true
+    }
+  }
+}
+```
+
 ## Configuration
 
 Environment variables:
@@ -49,6 +71,8 @@ Build the docker image. You can pass additional build arguments if needed.
 ### `publish`
 
 Tag the image with the new version, push it to GitLab Container Registry and update the `latest` tag.
+
+**Multi Platform builds:** Can be skipped by using `"skipPublish": true` in the semantic release configuration. When using `buildx` you'll need to use the `--push` argument ([Reason](https://github.com/docker/buildx/issues/59)).
 
 ## Example .gitlab-ci.yml
 
@@ -95,6 +119,17 @@ jobs:
     steps:
       - name: Clone code repo
         uses: actions/checkout@v2
+
+      # Required for multi platform builds
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+
+      # Required for multi platform builds
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v1
+        with:
+          install: true
 
       # Useful if you want to use signed commits
       - name: Import GPG key
