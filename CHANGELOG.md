@@ -1,3 +1,16 @@
+# [2.7.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.6.0...v2.7.0) (2021-08-26)
+
+
+### Features
+
+* add support for GITHUB_ACTOR env var and switch to ghcr.io naming ([ad082f3](https://github.com/alexanderbabel/semantic-release-docker/commit/ad082f3f960ac1687266f6b80aa832211f587bfe))
+* improve documentation ([c8b03be](https://github.com/alexanderbabel/semantic-release-docker/commit/c8b03be959df15a7b50b57628146e10a2da81089))
+
+
+### Reverts
+
+* Revert "feat: add support for crane and kaniko" ([1eff8a1](https://github.com/alexanderbabel/semantic-release-docker/commit/1eff8a19b88b1aa194ac5b57663c4fc326aad3d5))
+
 # [2.6.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.5.1...v2.6.0) (2021-03-02)
 
 
