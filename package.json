@@ -1,6 +1,6 @@
 {
   "name": "@alexbabel/semantic-release-docker",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "description": "Set of semantic-release plugins to publish to gitlab docker registry",
   "main": "index.js",
   "scripts": {

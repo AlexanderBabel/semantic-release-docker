@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.8.0...v2.9.0) (2021-09-26)
+
+
+### Features
+
+* update peer dependency ([a023413](https://github.com/alexanderbabel/semantic-release-docker/commit/a0234138bd828f7313e32c43961d9864946b7026))
+
 # [2.8.0](https://github.com/alexanderbabel/semantic-release-docker/compare/v2.7.0...v2.8.0) (2021-08-26)
 
 
